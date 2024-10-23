@@ -38,9 +38,10 @@ pipeline{
       sh 'npm run build'
      }
    }
-stage("Validación"){
+stage("Creacion de imagen de Docker"){
   steps{
-    sh 'echo Todo se validó'
+    sh 'docker build . -t imgcontenedor'
+    sh 'echo Imagen del contenedor creada'
      }
   }
  }
