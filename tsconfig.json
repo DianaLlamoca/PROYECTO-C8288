@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "target": "es5", //Genero código compatible con ES5
+      "module": "commonjs", //Utilizaré el módulo CommonJS
+      "outDir": "./dist", //Establezco el directorio de salida para los archivos JavaScript
+      "strict": true, //Opción para activar comprobaciones de tipo estrictas
+      "esModuleInterop": true //Opción que permite importar módulos CommonJS en módulos ES6
+    }
+}
