@@ -6,8 +6,10 @@ pipeline{
         git branch:'master', url:'https://github.com/DianaLlamoca/PROYECTO-C8288.git'
       }
     stage("Comprobando"){
-      sh "echo ${pwd}"
+      steps{
+        sh "echo ${pwd}"
+      }
      }
-    }
-  }
+   }
+ }
 }
