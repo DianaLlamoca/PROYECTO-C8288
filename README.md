@@ -18,3 +18,7 @@
 Además, clonaré el repositorio donde se encuentran todos los archivos necesarios con los cuales trabajará el pipeline.
 
 ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I1.JPG)
+
+2) Verifico si en el nodo actual donde se ejecutará el pipeline está instalado node y npm, para en base a ello continuar con el proceso definido en el pipeline.
+
+![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I2.JPG)
