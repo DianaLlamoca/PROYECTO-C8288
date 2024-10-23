@@ -38,7 +38,7 @@ pipeline{
       sh 'npm run build'
      }
    }
-stage("Creacion de imagen de Docker: Deploy"){
+stage("Docker: Deploy"){
   steps{
     sh 'docker build . -t imgcontenedor'
     sh 'echo Imagen del contenedor creada'
