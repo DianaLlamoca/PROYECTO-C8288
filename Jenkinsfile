@@ -33,5 +33,10 @@ pipeline{
       sh 'npm test'
     }
    }
+  stage("Verificacion"){
+    steps{
+      echo "Las pruebas se ejecutaron correctamente
+     }
+   }
  }
 }
