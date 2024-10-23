@@ -6,6 +6,7 @@ pipeline{
           git branch:'master', url:'https://github.com/DianaLlamoca/PROYECTO-C8288.git'
       }
     }
+    
     stage("Verificando node.js y npm"){
       steps{
         script{
@@ -20,5 +21,17 @@ pipeline{
       }
     }
   }
+      
+  stage("Instalando dependencias"){
+    steps{
+      sh 'npm install'
+    }
+  }
+      
+  stage("Ejecutando pruebas"){
+    steps{
+      sh 'npm test'
+    }
+   }
  }
 }
