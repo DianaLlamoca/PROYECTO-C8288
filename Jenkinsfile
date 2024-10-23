@@ -40,7 +40,7 @@ pipeline{
    }
 stage("Validación"){
   steps{
-    sh 'echo Todo se validó :)'
+    sh 'echo Todo se validó'
      }
   }
  }
