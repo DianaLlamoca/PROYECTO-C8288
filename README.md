@@ -15,6 +15,6 @@
 # =======
 # PIPELINE:
 1) Defino el 'agent' (agente o nodo) en donde se ejecutará el pipeline. En este caso, coloqué 'any', lo que supone que ejecutará el pipeline en cualquiera de los nodos disponibles.
-Además, clonaré el repositorio donde se encuentran todos los archivos necesarios en el nodo donde se está ejecutando el pipeline.
+Además, clonaré el repositorio donde se encuentran todos los archivos necesarios con los cuales trabajará el pipeline.
 
 ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I1.JPG)
