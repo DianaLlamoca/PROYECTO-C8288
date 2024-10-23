@@ -41,7 +41,7 @@ pipeline{
 stage("Docker: Deploy"){
   steps{
     sh 'docker build . -t imgcontenedor'
-    sh 'echo Imagen del contenedor creada'
+    sh 'docker run -p 8000:80 imgcontenedor'
      }
   }
  }
