@@ -9,3 +9,4 @@
 - Supertest para probar API's
 - Express para crear una aplicación web básica sobre la cual realizaré una prueba sencilla mediante Supertest y Jest para validar el resultado de respuesta al realizar una solicitud mediante el método get.
 - Github para crear el repositorio con el cual trabajará Jenkins.
+- Docker para desplegar una pequeña aplicación transpilada de TypeScript a JavaScript
