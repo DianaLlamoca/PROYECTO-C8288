@@ -28,15 +28,21 @@ pipeline{
     }
   }
       
-  stage("Ejecutando pruebas"){
+  stage("Ejecutando pruebas: Test"){
     steps{
       sh 'npm test'
     }
    }
-  stage("Verificacion"){
+  stage("Transpilando: Build"){
     steps{
-      echo "Las pruebas se ejecutaron correctamente"
+      sh 'npm run build'
      }
    }
+stage("Validación"){
+  steps{
+    sh 'echo Todo se validó :)'
+     }
+  }
  }
 }
+    
