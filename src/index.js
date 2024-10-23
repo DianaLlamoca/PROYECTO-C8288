@@ -1,10 +1,17 @@
-//Acá defino una Prueba sencilla, que devolverá una promesa que se resuelve en 2 segundos
-function Prueba(){
-    return new Promise((resolve,reject)=>{
-        setTimeout(()=>{
-            resolve("Prueba correcta");
-        },2000);
-    });
-}
-//Exporto la función para usarla en el archivo .test.js
-module.exports=Prueba;
+//Creo una app en express básica que tendrá una ruta /users a la que se le aplicará el método get
+//y se enviará como respuesta la lista de 'Usuarios'
+const express = require('express');
+const app = express();
+
+const Usuarios= [
+    { id: 1, name: 'user1', email: 'user1@test.com' },
+    { id: 2, name: 'user2', email: 'user2@test.com' }
+  ];
+
+
+app.get('/users', (req, res) => {
+  res.send(Usuarios);
+});
+
+//Exporto la instancia de la aplicación express para realizar las pruebas
+module.exports=app;
