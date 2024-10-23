@@ -1,5 +1,5 @@
 //Obtengo la prueba que se encuentra en el directorio /src/index
-const prueba = require('./src/index'));
+const prueba = require('./src/index');
 
 test('resultado',async ()=>{
     //Acá espero el resultado, al ser una promesa uso la sintaxis await dentro de una función asíncrona
