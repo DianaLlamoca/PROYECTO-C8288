@@ -2,9 +2,8 @@
     "name": "app-express",
     "version": "1.0.0",
     "descripcion": "Pagina de prueba",
-    "main": "src/index.js",
+    "main": "index.js",
     "scripts": {
-        "start": "node index.js",
         "test": "jest"
     },
     "dependencies": {
