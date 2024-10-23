@@ -14,4 +14,5 @@
 
 # =======
 # PIPELINE:
+1) Defino el 'agent' (agente o nodo) en donde se ejecutará el pipeline. En este caso, coloqué 'any', lo que supone que ejecutará el trabajo en cualquiera de los nodos disponibles.
 ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I1.JPG)
