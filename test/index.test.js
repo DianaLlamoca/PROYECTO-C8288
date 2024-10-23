@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('..src/index'));
+const app = require('../src/index'));
 
 describe('GET /', () => {
     it('Debería responder con Despliegue correcto', async () => {
