@@ -35,7 +35,7 @@ pipeline{
    }
   stage("Verificacion"){
     steps{
-      echo "Las pruebas se ejecutaron correctamente
+      echo "Las pruebas se ejecutaron correctamente"
      }
    }
  }
