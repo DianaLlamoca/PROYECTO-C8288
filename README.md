@@ -14,4 +14,4 @@
 
 # =======
 # PIPELINE:
-![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/Imagenes.md)
+![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I1.JPG)
