@@ -1,10 +1,13 @@
 pipeline{
   agent any
   stages{
-    stage("Prueba1"){
+    stage("Clonando repositorio"){
       steps{
-        sh "echo prueba1 ejecutandose"
+        git branch:'master', url:'https://github.com/DianaLlamoca/PROYECTO-C8288.git'
       }
+    stage("Comprobando"){
+      sh "echo ${pwd}"
+     }
     }
   }
 }
