@@ -1,10 +1,9 @@
-const request = require('supertest');
-const app = require('../src/index'));
+//Obtengo la prueba que se encuentra en el directorio /src/index
+const prueba = require('./src/index'));
 
-describe('GET /', () => {
-    it('Debería responder con Despliegue correcto', async () => {
-        const response = await request(app).get('/');
-        expect(response.statusCode).toBe(200);
-        expect(response.text).toBe('Despliegue correcto');
-    });
+test('resultado',async ()=>{
+    //Acá espero el resultado, al ser una promesa uso la sintaxis await dentro de una función asíncrona
+    const resultado=await prueba();
+    //Acá realizo la comprobación de que el resultado devuelto por la promesa sea "Prueba correcta" y la prueba sea validada.
+    expect(resultado).toBe("Prueba correcta");
 });
