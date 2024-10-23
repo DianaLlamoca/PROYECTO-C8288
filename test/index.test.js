@@ -1,5 +1,6 @@
 const request = require('supertest');
-const app = require('../index');
+const path=require('path')
+const app = require(path.resolve(__dirname,'..src/index'));
 
 describe('GET /', () => {
     it('Debería responder con Despliegue correcto', async () => {
