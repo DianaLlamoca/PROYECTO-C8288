@@ -36,5 +36,6 @@ Esto permitirá que Jest busque y ejecute las pruebas definidas en el repositori
 
 ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I4.JPG)
 
-4.1) A continuación, enseñaré los archivos de pruebas que Jest ejecutará:
+## PASO 4.1)
+4.1) A continuación, enseñaré los archivos de pruebas que Jest ejecutará, las cuales están definidas en las carpetas 'src' y 'test en el repositorio:
 
