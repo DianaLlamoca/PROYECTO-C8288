@@ -176,6 +176,6 @@ Para que Jenkins pueda trabajar con GitHub, realicé la configuración correspon
 
 
 - ### Finalmente...
-  En Jenkins, sería seleccionar la opción: 'Construir ahora'
+  En Jenkins, se coloca la opción: 'Construir ahora'
 
    ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I25.JPG)
