@@ -58,7 +58,7 @@ Esto permitirá que Jest busque y ejecute las pruebas definidas en el repositori
   ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I7.JPG)
 
   * Archivo .test.js:
-  *  
+     
   ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I8.JPG)
   
 * Prueba 3:
