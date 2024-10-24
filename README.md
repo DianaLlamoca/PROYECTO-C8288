@@ -95,8 +95,9 @@ Allí es donde vinculé el script 'build' con el comando 'tsc', que se encargar�
 -----
 
 * **tsconfig.json:**
-* 
+  
 ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I13.JPG)
 
 ---
 
+# PASO 6: DEPLOY
