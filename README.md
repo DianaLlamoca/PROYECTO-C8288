@@ -121,6 +121,10 @@ Este Dockerfile servirá para crear la imagen, para a partir de allí crear un c
 - Aquí se puede ver que el pipeline se ejecutó correctamente, debido a que las pruebas automatizadas realizadas en los archivos JS se ejecutaron correctamente:
   
 ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I17.JPG)
+
+- Logs de las pruebas automatizadas:
+
+![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I18.JPG)
   
 
 
