@@ -14,6 +14,10 @@
 
 # =======
 # PIPELINE:
+
+# BUILD:
+En la etapa de build, realizo la instalación de dependencias asegurándome de que todas las librerías y herramientas necesarias estén disponibles.
+
 # PASO 1
 1) Defino el 'agent' (agente o nodo) en donde se ejecutará el pipeline. En este caso, coloqué 'any', lo que supone que ejecutará el pipeline en cualquiera de los nodos disponibles.
 Además, clonaré el repositorio donde se encuentran todos los archivos necesarios con los cuales trabajará el pipeline.
@@ -100,7 +104,9 @@ Allí es donde vinculé el script 'build' con el comando 'tsc', que se encargar�
 
 ---
 
-# PASO 6: DEPLOY
+# DEPLOY
+
+# PASO 6:
 Esta es la última etapa en un pipeline CI/CD, ya que es el paso final donde el código que ha sido desarrollado, probado y empaquetado, se despliega en un entorno de ejecución.
 Este proceso puede automatizarse, por lo que decidí utilizar Docker para realizar el deploy de la aplicación:
 
