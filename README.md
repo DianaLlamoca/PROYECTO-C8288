@@ -81,6 +81,7 @@ Para ello, dentro del package.json, en "build" (scripts) utilizo el comando 'tsc
 Así, definí el archivo 'tsconfig.json' el cual actuará como un "manual de instrucciones" para el compilador de TypeScript, definiendo cómo se debe compilar el código TypeScript a JavaScript.
 
 * **pipeline:**
+  
 ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I11.JPG)
 
 * **package.json:**
