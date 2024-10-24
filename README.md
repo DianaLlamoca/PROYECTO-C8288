@@ -150,12 +150,13 @@ Para que Jenkins pueda trabajar con GitHub, realicé la configuración correspon
 
 
 - ### Configuración GitHub:
-- Vinculo el repositorio con el servidor de Jenkins:
+ Vinculo el repositorio con el servidor de Jenkins:
 - En el repositorio --> Settings --> WebHooks:
   
   ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I23.JPG)
 
-- Debido a que Jenkins corre en el localhost, para vincularlo con Jenkins necesito la IP pública. Dicha IP pública debe ser colocada en el link para realizar la conexión con Jenkins:
+- Debido a que Jenkins corre en el localhost, para vincularlo con GitHub necesito la IP pública del agente o nodo donde se está ejecutando Jenkins. Dicha IP pública debe ser colocada en el link para realizar la 
+ conexión:
 
   ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I24.JPG)
 
