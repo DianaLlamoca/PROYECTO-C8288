@@ -143,7 +143,9 @@ Para que Jenkins pueda trabajar con GitHub, realicé la configuración correspon
    - Especifico la rama del repositorio:
      
    ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I21.JPG)
-
+   
+   - Establezco el path donde se encuentra el archivo Jenkinsfile. Como este se encuentra en el directorio raíz del repositorio, solamente especifico el nombre del archivo:
+      
    ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I22.JPG)
 
 - 
