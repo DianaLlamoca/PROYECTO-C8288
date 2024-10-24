@@ -38,4 +38,9 @@ Esto permitirá que Jest busque y ejecute las pruebas definidas en el repositori
 
 ## PASO 4.1)
 4.1) A continuación, enseñaré los archivos de pruebas que Jest ejecutará, las cuales están definidas en las carpetas 'src' y 'test en el repositorio:
+- Prueba 1:
+  * Archivo .js:
+ ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I5.JPG)
+ * Archivo .test.js:
+ ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I6.JPG)
 
