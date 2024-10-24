@@ -34,7 +34,10 @@ Además, clonaré el repositorio donde se encuentran todos los archivos necesari
 
 ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I3.JPG)
 
-# PASO 4: TEST
+# TEST
+Ya que la etapa de build se enfocó en la construcción del proyecto, la etapa de testing se concentrará en verificar su correcto funcionamiento.
+
+# PASO 4: 
 4) Aquí se presenta la etapa de test. En el archivo package.json, especifiqué, dentro de "scripts", el apartado de "test", de tal forma que cuando se ejecute el comando 'npm test', ejecutará el script definido en el archivo package.json, en el cual el script 'test' está vinculado a la herramienta de testing 'Jest'.
 Esto permitirá que Jest busque y ejecute las pruebas definidas en el repositorio, para ello 'recorre' los archivos de prueba (extensiones .test.js) y las ejecuta.
 
