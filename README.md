@@ -101,3 +101,20 @@ Allí es donde vinculé el script 'build' con el comando 'tsc', que se encargar�
 ---
 
 # PASO 6: DEPLOY
+Esta es la última etapa en un pipeline CI/CD, ya que es el paso final donde el código que ha sido desarrollado, probado y empaquetado, se despliega en un entorno de ejecución.
+Este proceso puede automatizarse, por lo que decidí utilizar Docker para realizar el deploy de la aplicación:
+
+![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I15.JPG)
+
+**Descripción:** Aquí estoy creando una imagen a partir del Dockerfile contenido en el directorio actual en donde se está ejecutando el pipeline.
+Posteriormente, creo un contenedor docker, utilizando 'docker run' y le especifico el puerto que estará expuesto para entablar conexión con el contenedor desde la máquina host.
+
+---
+**Dockerfile:**
+Este Dockerfile servirá para crear la imagen, para a partir de allí crear un contenedor NodeJS y ejecutar el archivo transpilado de TypeScript a JavaScript:
+
+![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I14.JPG)
+
+
+
+
