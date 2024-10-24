@@ -51,6 +51,8 @@ Esto permitirá que Jest busque y ejecute las pruebas definidas en el repositori
 
 **Descripción de la prueba 1**: Realizo una solitud GET a la ruta '/users'. Para ello, utilizo 'supertest', que me permitirá probar servidores HTTP. Luego, utilizo 'Jest' para verificar que la información brindada por el servidor sea igual al resultado esperado y establezco un tiempo de 10 segundos para realizar la solicitud y posteriormente la prueba automatizada.
 
+====
+
 ### Lo mismo aplico para las pruebas 2 y 3, donde ejecuto pruebas a funciones sencillas encargadas de validar las operaciones de suma y factorial:
 * Prueba 2:
   * Archivo .js:
@@ -60,6 +62,8 @@ Esto permitirá que Jest busque y ejecute las pruebas definidas en el repositori
   * Archivo .test.js:
      
   ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I8.JPG)
-  
+
+-------
+
 * Prueba 3:
  ![]()
