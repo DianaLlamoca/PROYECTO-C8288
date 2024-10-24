@@ -126,5 +126,21 @@ Este Dockerfile servirá para crear la imagen, para a partir de allí crear un c
 
 ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I18.JPG)
   
+=====
 
+# NOTAS:
+Para que Jenkins pueda trabajar con GitHub, realicé la configuración correspondiente en GitHub mediante WebHook en la configuración del repositorio, como al momento de crear el pipeline en Jenkins:
+
+- ### Configuración Jenkins:
+  - Vincular Jenkins con GitHub:
+    
+    ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I19.JPG)
+
+   ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I20.JPG)
+
+   ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I21.JPG)
+
+   ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I22.JPG)
+
+- 
 
