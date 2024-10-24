@@ -75,3 +75,7 @@ Esto permitirá que Jest busque y ejecute las pruebas definidas en el repositori
   ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I10.JPG)
 
 # PASO 5: BUILD
+En la etapa de build, realizará la compilación de código TypeScript a JavaScript.
+Es importante separar la transpilación de la etapa de desarrollo, ya que así nos podemos asegurar que el código a desplegar esté libre de errores.
+Para ello, dentro del package.json, en "build" (dentro de scripts) utilizo el comando 'tsc' para que se lleve a cabo la transpilación.
+Así, definí el archivo 'tsconfig.json' el cual actuará como un "manual de instrucciones" para el compilador de TypeScript, definiendo cómo se debe compilar el código TypeScript a JavaScript.
