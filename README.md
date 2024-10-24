@@ -136,9 +136,12 @@ Para que Jenkins pueda trabajar con GitHub, realicé la configuración correspon
     
     ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I19.JPG)
 
-   - Coloco la URL del repositorio con el que Jenkins va a trabajar
+   - Coloco la URL del repositorio con el que Jenkins va a trabajar:
+     
    ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I20.JPG)
 
+   - Especifico la rama del repositorio:
+     
    ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I21.JPG)
 
    ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I22.JPG)
