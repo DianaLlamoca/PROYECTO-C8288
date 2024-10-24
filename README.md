@@ -83,13 +83,16 @@ Así, definí el archivo 'tsconfig.json' el cual actuará como un "manual de ins
 * **pipeline:**
   
 ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I11.JPG)
- * Al ejecutar 'npm run build' le estoy indicando a 'npm' que ejecute el script denominado 'build' definido en el archivo package.json.
+ - Al ejecutar 'npm run build' le estoy indicando a 'npm' que ejecute el script denominado 'build' definido en el archivo package.json.
 Allí es donde vinculé el script 'build' con el comando 'tsc', que se encargará de invocar al compilador de TypeScript. De tal forma que el compilador de TypeScript analizará todos los archivos TS, para posteriormente generar los código JS correspondientes, siempre siguiendo las configuraciones que le indiqué en el archivo 'tsconfig.json'
 
+----
 
 * **package.json:**
 
 ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I12.JPG)
+
+-----
 
 * **tsconfig.json:**
 ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I13.JPG)
