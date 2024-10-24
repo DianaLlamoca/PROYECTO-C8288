@@ -35,3 +35,6 @@ Además, clonaré el repositorio donde se encuentran todos los archivos necesari
 Esto permitirá que Jest busque y ejecute las pruebas definidas en el repositorio, para ello 'recorre' los archivos de prueba (extensiones .test.js) y las ejecuta.
 
 ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I4.JPG)
+
+4.1) A continuación, enseñaré los archivos de pruebas que Jest ejecutará:
+
