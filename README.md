@@ -134,6 +134,8 @@ Este Dockerfile servirá para crear la imagen, para a partir de allí crear un c
 
 ---
 - ### Instalar plugins en Jenkins:
+  * Pipeline stage view (para visualizar la barra a medida que el pipeline se ejecuta)
+  * Git (para realizar la conexión entre Jenkins y GitHub)
 
   ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I26.JPG)
 
