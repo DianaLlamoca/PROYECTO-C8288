@@ -160,3 +160,4 @@ Para que Jenkins pueda trabajar con GitHub, realicé la configuración correspon
 
   ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I24.JPG)
 
+ - **Nota:** Para saber la IP pública, se ejecuta el comando *curl ifconfig.me*
