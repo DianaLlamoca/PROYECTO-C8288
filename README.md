@@ -133,6 +133,10 @@ Este Dockerfile servirá para crear la imagen, para a partir de allí crear un c
  https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-20-04-es
 
 ---
+- ### Instalar plugins en Jenkins:
+
+  ![](https://github.com/DianaLlamoca/IMAGENES-PROYECTO/blob/main/Imagenes/I26.JPG)
+
 
 Para que Jenkins pueda trabajar con GitHub, realicé la configuración correspondiente en GitHub mediante WebHook en la configuración del repositorio, como al momento de crear el pipeline en Jenkins:
 
